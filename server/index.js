@@ -7,7 +7,7 @@ const authRouter = require("./Routes/authRouter");
 const productRouter = require("./Routes/productRouter");
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 app.get("/hello", (req, res) => {
   res.send("mummy kaisi hain😉");
