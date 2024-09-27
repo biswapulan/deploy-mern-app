@@ -17,4 +17,4 @@ function salonCard() {
   );
 }
 
-export default salonCard;
+export default Saloncard;
