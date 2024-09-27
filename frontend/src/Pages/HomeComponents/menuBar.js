@@ -71,4 +71,4 @@ function menuBar() {
   );
 }
 
-export default menuBar;
+export default Menubar;
