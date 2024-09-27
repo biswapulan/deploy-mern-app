@@ -24,6 +24,7 @@ function Home() {
   return (
     <div className="home_page">
       <h1>Welcome {loggedInUser}</h1>
+
       <button onClick={handleLogout}>Logout</button>
       <div>
         <h2>Salons</h2>
